@@ -14,4 +14,20 @@ public class MyAlgorithm {
         }
         return sum;
     }
+
+    public static int multiplyArray(int[] arr) {
+        int product = 1;
+        for (int i : arr) {
+            product *= i;
+        }
+        return product;
+    }
+
+    public static int subtractArray(int[] arr) {
+        int difference = arr[0];
+        for (int i = 1; i < arr.length; i++) {
+            difference -= arr[i];
+        }
+        return difference;
+    }
 }
