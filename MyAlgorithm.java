@@ -9,8 +9,8 @@ public class MyAlgorithm {
 
     public static int sumArray(int[] arr) {
         int sum = 0;
-        for (int j : arr) {
-            sum += j;
+        for (int n : arr) {
+            sum += n;
         }
         return sum;
     }
